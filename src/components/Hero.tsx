@@ -14,10 +14,13 @@ export function Hero() {
             <p className="text-xl text-white/90 mb-8 max-w-2xl">
               Join the most relaxed cryptocurrency community. Where laid-back vibes meet serious gains.
             </p>
+            <a href="https://x.com/capybara_base" >
             <button className="bg-white text-teal-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-100 transition-all transform hover:scale-105 flex items-center">
               Join the Chill Community
               <ArrowRight className="ml-2 h-5 w-5" />
             </button>
+            </a>
+
           </div>
           <div className="flex justify-center">
             <img 

@@ -9,14 +9,14 @@ export function Features() {
       icon: <Users className="h-12 w-12 text-yellow-500" />
     },
     {
-      title: "CapyNFTs",
-      description: "Exclusive NFT collections featuring our favorite relaxed creatures",
-      icon: <Palette className="h-12 w-12 text-yellow-500" />
-    },
-    {
       title: "Eco-Conscious",
       description: "Part of all transactions goes to wildlife conservation",
       icon: <TreePine className="h-12 w-12 text-yellow-500" />
+    },
+    {
+      title: "CapyNFTs",
+      description: "Exclusive NFT collections featuring our favorite relaxed creatures",
+      icon: <Palette className="h-12 w-12 text-yellow-500" />
     }
   ];
 

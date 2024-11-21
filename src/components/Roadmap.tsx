@@ -3,9 +3,9 @@ import React from 'react';
 export function Roadmap() {
   const milestones = [
     { phase: "Phase 1", title: "Launch", description: "Initial token launch and community building" },
-    { phase: "Phase 2", title: "NFT Integration", description: "Release of exclusive CapyNFT collections" },
-    { phase: "Phase 3", title: "Partnerships", description: "Conservation partnerships and ecosystem expansion" },
-    { phase: "Phase 4", title: "Global Impact", description: "Worldwide adoption and conservation projects" }
+    { phase: "Phase 2", title: "Partnerships", description: "Conservation partnerships and ecosystem expansion" },
+    { phase: "Phase 3", title: "Global Impact", description: "Worldwide adoption and conservation projects" },
+    { phase: "Phase 4", title: "NFT Integration", description: "Release of exclusive CapyNFT collections" }
   ];
 
   return (

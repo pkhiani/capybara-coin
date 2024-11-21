@@ -13,7 +13,7 @@ export function Footer() {
             </div>
             <p className="mt-4 text-gray-400">The chillest cryptocurrency in the world.</p>
           </div>
-          <div>
+          {/* <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
@@ -35,7 +35,7 @@ export function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
           <p>© 2024 CapyCoin. All rights reserved.</p>
