@@ -1,3 +1,7 @@
-# capybara-coin
+# Capybara Coin Website ($CAPY)
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/pkhiani/capybara-coin)
+[Website](https://capycoin.co)
+
+[X](https://x.com/capybara_base)
+
+[Telegram](https://t.me/+eshgw4kwl9FlMDI5)
