@@ -1,5 +1,5 @@
 import React from 'react';
-import Swap from './Swap'
+import Swap from './Swap';
 
 export function About() {
   return (
@@ -13,13 +13,9 @@ export function About() {
             we believe in taking life easy while making a positive impact.
           </p>
         </div>
-        <div className='align-center justify-center flex'>
-        <SwapDefault
-            from={[eth]}
-            to={[capy]}
-          /> 
+        <div className="mt-12">
+          <Swap />
         </div>
-
       </div>
     </section>
   );

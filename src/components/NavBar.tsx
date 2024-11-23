@@ -15,7 +15,7 @@ export function NavBar() {
             <a href="#features" className="text-gray-700 hover:text-yellow-500">Features</a>
             <a href="#roadmap" className="text-gray-700 hover:text-yellow-500">Roadmap</a>
             <a href="#community" className="text-gray-700 hover:text-yellow-500">Community</a>
-            <a href="https://fun.virtuals.io/agents/0x52FfF1bFDF071A43F79A3Eb45739107Fd000DbA8">
+            <a href="#about">
             <button className="bg-yellow-500 text-white px-4 py-2 rounded-full hover:bg-yellow-600 transition" >
               Connect Wallet
             </button>

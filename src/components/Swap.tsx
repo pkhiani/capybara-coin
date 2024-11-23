@@ -1,22 +1,31 @@
-import { SwapDefault } from '@coinbase/onchainkit/swap'; 
+import { SwapDefault } from '@coinbase/onchainkit/swap';
 import type { Token } from '@coinbase/onchainkit/token';
- 
+
 const eth: Token = {
   name: 'ETH',
   address: '',
   symbol: 'ETH',
   decimals: 18,
-  image:
-    'https://wallet-api-production.s3.amazonaws.com/uploads/tokens/eth_288.png',
+  image: 'https://wallet-api-production.s3.amazonaws.com/uploads/tokens/eth_288.png',
   chainId: 8453,
 };
- 
+
 const capy: Token = {
   name: 'CAPY',
-  address: '0x52FfF1bFDF071A43F79A3Eb45739107Fd000D',
+  address: '0x52FfF1bFDF071A43F79A3Eb45739107Fd000DbA8',
   symbol: 'CAPY',
   decimals: 6,
-  image:
-    'https://d3r81g40ycuhqg.cloudfront.net/wallet/wais/44/2b/442b80bd16af0c0d9b22e03a16753823fe826e5bfd457292b55fa0ba8c1ba213-ZWUzYjJmZGUtMDYxNy00NDcyLTg0NjQtMWI4OGEwYjBiODE2',
+  image: 'capy-logo.svg',
   chainId: 8453,
 };
+
+export default function Swap() {
+  return (
+    <div className="max-w-md mx-auto">
+      <SwapDefault
+        from={[eth]}
+        to={[capy]}
+      />
+    </div>
+  );
+}
