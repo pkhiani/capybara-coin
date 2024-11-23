@@ -15,7 +15,7 @@ const capy: Token = {
   address: '0x52fff1bfdf071a43f79a3eb45739107fd000dba8',
   symbol: 'CAPY',
   decimals: 6,
-  image: './capy-logo.svg',
+  image: 'https://raw.githubusercontent.com/pkhiani/capybara-coin/de6c164d2b72eb0fa87a820b47805e8591f288d6/capy-logo.svg',
   chainId: 8453,
 };
 
