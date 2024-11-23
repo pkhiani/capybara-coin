@@ -15,7 +15,7 @@ const capy: Token = {
   address: '0x52FfF1bFDF071A43F79A3Eb45739107Fd000DbA8',
   symbol: 'CAPY',
   decimals: 6,
-  image: 'capy-logo.svg',
+  image: './capy-logo.svg',
   chainId: 8453,
 };
 
