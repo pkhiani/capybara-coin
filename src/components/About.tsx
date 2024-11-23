@@ -1,4 +1,5 @@
 import React from 'react';
+import Swap from './Swap'
 
 export function About() {
   return (
@@ -13,11 +14,10 @@ export function About() {
           </p>
         </div>
         <div className='align-center justify-center flex'>
-        <a href="https://fun.virtuals.io/agents/0x52FfF1bFDF071A43F79A3Eb45739107Fd000DbA8">
-            <button className=" bg-yellow-500 text-white px-4 py-2 rounded-full hover:bg-yellow-600 transition" >
-              Connect Wallet
-            </button>
-            </a>
+        <SwapDefault
+            from={[eth]}
+            to={[capy]}
+          /> 
         </div>
 
       </div>
