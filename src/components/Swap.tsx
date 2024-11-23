@@ -12,7 +12,7 @@ const eth: Token = {
 
 const capy: Token = {
   name: 'CAPY',
-  address: '0x52FfF1bFDF071A43F79A3Eb45739107Fd000DbA8',
+  address: '0x52fff1bfdf071a43f79a3eb45739107fd000dba8',
   symbol: 'CAPY',
   decimals: 6,
   image: './capy-logo.svg',
