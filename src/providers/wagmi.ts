@@ -7,9 +7,7 @@ export function getConfig() {
     chains: [base], // add baseSepolia for testing
     connectors: [
       coinbaseWallet({
-        appName: "OnchainKit",
-        preference: 'smartWalletOnly',
-        version: '4',
+        appName: 'onchainkit',
       }),
     ],
     storage: createStorage({
