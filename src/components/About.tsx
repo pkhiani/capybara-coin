@@ -12,7 +12,12 @@ export function About() {
             and contributing to wildlife conservation. Just like our spirit animal, 
             we believe in taking life easy while making a positive impact.
           </p>
+          <br></br>
+          <p className="text-xl font-bold text-gray-600 max-w-3xl mx-auto">
+          Base chain: 0x52fff1bfdf071a43f79a3eb45739107fd000dba8
+          </p>
         </div>
+        
         <div className="mt-12">
           <Swap />
         </div>

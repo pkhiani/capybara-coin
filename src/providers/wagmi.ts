@@ -7,7 +7,7 @@ export function getConfig() {
     chains: [base], // add baseSepolia for testing
     connectors: [
       coinbaseWallet({
-        appName: 'onchainkit',
+        appName: 'CapyCoin',
       }),
     ],
     storage: createStorage({
